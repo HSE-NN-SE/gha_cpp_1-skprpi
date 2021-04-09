@@ -48,7 +48,7 @@ jobs:
       - name: send my message
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.TELEGRAM_TO_DEBUG }}
-          token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
+          to: ${{ secrets.TELEGA_TO_ID }}
+          token: ${{ secrets.MY_TELEGA_TOCKEN }}
           document: main.exe
           
