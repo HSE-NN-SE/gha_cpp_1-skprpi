@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/fatin/CLionProjects/gha_cpp_1-skprpi/cmake-build-debug/CMakeFiles/gha_cpp_1_skprpi.dir/embed.manifest"

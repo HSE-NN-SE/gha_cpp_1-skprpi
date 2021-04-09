@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/fatin/CLionProjects/gha_cpp_1-skprpi/main.cpp
+iostream
+-
+map
+-
+vector
+-
+set
+-
+

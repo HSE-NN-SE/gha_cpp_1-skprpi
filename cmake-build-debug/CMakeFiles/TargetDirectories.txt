@@ -1,0 +1,3 @@
+C:/Users/fatin/CLionProjects/gha_cpp_1-skprpi/cmake-build-debug/CMakeFiles/gha_cpp_1_skprpi.dir
+C:/Users/fatin/CLionProjects/gha_cpp_1-skprpi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fatin/CLionProjects/gha_cpp_1-skprpi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
