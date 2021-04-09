@@ -40,9 +40,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: send custom message with args
+      - name: download
+        uses: actions/download-artifact@v2
+        with:
+          name: main
+      
+      - name: send my message
         uses: appleboy/telegram-action@master
         with:
+          to: ${{ secrets.TELEGRAM_TO_DEBUG }}
+          token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
+          document: main.exe
           to: ${{ secrets.TELEGRAM_TO_DEBUG }}
           token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
           args: The
