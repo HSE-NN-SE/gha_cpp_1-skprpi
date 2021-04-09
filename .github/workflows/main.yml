@@ -28,3 +28,9 @@ jobs:
       - uses: ilammy/msvc-dev-cmd@v1
       - name: build
         run: cl /EHsc main.cpp
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifacts_archive
+          path: "*.exe"
+          retention-days: 1
